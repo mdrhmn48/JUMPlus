@@ -16,8 +16,8 @@ df = load_data()
 st.title(":red[Welcome to] :green[Marvel Data Analysis] 🤖👿🦸‍♂️⚒️:bar_chart:")
 st.markdown("Marvel Data Analysis Dashboard, let's you explore the relationship between each super powers and villians")
 # st.set_page_config(layout="wide")
-scatter_fig = df.plot_bokeh.scatter(x="Intelligence", y="Strength", category = None,
-                            xlabel = "Intelligence", ylabel="Strength", title = "Superheroes Superpowers",
+scatter_fig = df.plot_bokeh.scatter(x="Alignment", y="Total", category = None,
+                            xlabel = "Alignment", ylabel="Total", title = "Superheroes Superpowers",
                             fontsize_title = 25, fontsize_label=12,
                             figsize=(750,500), show_figure=False
                             )
