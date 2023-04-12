@@ -8,18 +8,18 @@ import os
 
 
 
-st.header("Alhamdulilah")
-#https://github.com/mdrhmn48/JUMPlus/blob/main/week2/charcters_stats.csv
+st.header("Welcome to Marvel Dataset")
 #file = "charcters_stats.csv"
 # file = open(file)
 # file.read()
 # DATE_COLUMN = 'date/time'
 # DATA_URL = (file)
 # @st.cache_data
-# def read_data(file):
-#     data = pd.read_csv(file) #path folder of the data file
-#     return data
-# # st.write(data)
+def read_data(file):
+    data = pd.read_csv(file) #path folder of the data file
+    return data
+
+
 
 st.title("Hello world! hi how are you")
 
@@ -30,18 +30,3 @@ if uploaded_file is not None:
 # data = read_data(file)
 # st.title('Super Heroes Vs Super Villians')
 
-
-# def load_data(nrows):
-#     data = pd.read_csv(DATA_URL, nrows=nrows)
-#     #lowercase = lambda x: str(x).lower()
-#     #data.rename(lowercase, axis='columns', inplace=True)
-#     #data[DATE_COLUMN] = pd.to_datetime(data[DATE_COLUMN])
-#     return data
-
-
-# # Create a text element and let the reader know the data is loading.
-
-# # Load 10,000 rows of data into the dataframe.
-# # @st.cache_data
-# data = load_data(100)
-# # Notify the reader that the data was successfully loaded.
