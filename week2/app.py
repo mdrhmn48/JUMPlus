@@ -21,7 +21,7 @@ st.header("Alhamdulilah")
 #     return data
 # # st.write(data)
 
-st.title("Hello world!")
+st.title("Hello world! hi how are you")
 
 uploaded_file = st.file_uploader("charcters_stats.csv")
 if uploaded_file is not None:
